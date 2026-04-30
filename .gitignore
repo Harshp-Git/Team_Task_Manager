@@ -10,6 +10,8 @@ client/dist/
 # Playwright
 client/test-results/
 client/playwright-report/
+client/playwright.config.js
+client/tests/
 
 # IDE
 .vscode/
