@@ -1,0 +1,10 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "description": "Team Task Manager fullstack deployment",
+  "scripts": {
+    "install": "npm install --prefix server && npm install --prefix client --legacy-peer-deps",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  }
+}
